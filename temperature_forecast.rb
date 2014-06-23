@@ -49,3 +49,18 @@ forecast = [
     }
   }
 ]
+
+
+puts "Monday high: #{forecast[0]["temperatures"]["high"]} Low: #{forecast[0]["temperatures"]["low"]}"
+
+puts "Tuesday high: #{forecast[1]["temperatures"]["high"]} Low: #{forecast[1]["temperatures"]["low"]}"
+
+puts "Wednesday high: #{forecast[2]["temperatures"]["high"]} Low: #{forecast[2]["temperatures"]["low"]}"
+
+puts "Thursday high: #{forecast[3]["temperatures"]["high"]} Low: #{forecast[3]["temperatures"]["low"]}"
+
+puts "Friday high: #{forecast[4]["temperatures"]["high"]} Low: #{forecast[4]["temperatures"]["low"]}"
+
+puts "Saturday high: #{forecast[5]["temperatures"]["high"]} Low: #{forecast[5]["temperatures"]["low"]}"
+
+puts "Sunday high: #{forecast[6]["temperatures"]["high"]} Low: #{forecast[6]["temperatures"]["low"]}"
